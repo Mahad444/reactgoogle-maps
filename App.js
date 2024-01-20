@@ -30,7 +30,7 @@ export default function App() {
         }}
         >
           <Callout>
-            <Text>I'm Here</Text>
+            <Text>I'm Here alone</Text>
           </Callout>
         </Marker>
         <Circle
