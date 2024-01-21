@@ -13,7 +13,7 @@ export default function App() {
         latitudeDelta: 0.0922,
         longitudeDelta: 0.0421,
       }}
-      provider='google'
+      // provider='google'
       >
         <Marker 
         coordinate={pin}
