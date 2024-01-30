@@ -20,7 +20,7 @@ export default function App() {
         pinColor="dark-blue"
         draggable={true}
         onDragStart={(e) => {
-          console.log("Drag start", e.nativeEvent.coordinates)
+          console.log("Drag started", e.nativeEvent.coordinates)
         }}
         onDragEnd={(e) => {
           setPin({
