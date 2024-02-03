@@ -17,7 +17,7 @@ export default function App() {
       >
         <Marker 
         coordinate={pin}
-        pinColor="dark-blue"
+        pinColor="red"
         draggable={true}
         onDragStart={(e) => {
           console.log("Drag started", e.nativeEvent.coordinates)
